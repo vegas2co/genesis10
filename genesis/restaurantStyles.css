@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+footer {
+    text-align: center;
+    background-color: dodgerblue;
+}
+/* exercise 2 - 9*/
+
+.nav {
+    display: flex;
+}
+
+div .btn {
+    background-color: #5b7d87;
+    color: #fef9ff; 
+}
+
+div .btn:hover {
+    font-weight: bold;
+}
+
+div .btn:active {
+    font-weight: normal;
+    color: red;
+}
+
+.container-fluid {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.container-fluid a::before{
+    padding-right: 10px;
+    font-family: "FontAwesome";
+  }
+
+.fa-home::before {
+     content: "\f015";
+}
